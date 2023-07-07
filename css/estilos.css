@@ -39,6 +39,7 @@ h1 {
   align-items: center;
 }
 
+
 /*MOVIL*/
 @media (min-width: 768px) {
   .navegacion {
@@ -313,6 +314,13 @@ iframe {
 }
 
 .formulario1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+/*CURSOS*/
+.matricula {
   text-align: center;
   font-weight: bold;
 }
