@@ -275,6 +275,16 @@ iframe {
   position: relative;
 }
 
+@media (max-width: 768px) {
+    .nosotros {
+      background-image: url(../img/sobrenosotros.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 400px;
+      position: relative;
+    }
+}
+
 .contenedor-nosotros {
   padding: 40px;
   margin: 20px;
@@ -295,6 +305,16 @@ iframe {
   background-size: cover;
   height: 600px;
   position: relative;
+}
+
+@media (max-width: 768px) {
+    .contacto {
+      background-image: url(../img/contacto.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 400px;
+      position: relative;
+    }
 }
 
 .campo {
