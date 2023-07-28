@@ -1,0 +1,49 @@
+/*Pagina Contacto*/
+.contacto {
+    background-image: url(../img/contacto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+  }
+  
+  @media (max-width: 768px) {
+    .contacto {
+      background-image: url(../img/contacto.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 400px;
+      position: relative;
+    }
+  }
+  
+  .campo {
+    margin-bottom: 10px;
+  }
+  
+  .campo label {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    display: block;
+  }
+  
+  .imput-text {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .formulario {
+    background-color: rgba(0, 0, 0, 0.38);
+    width: min(600px, 100%);
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .formulario1 {
+    text-align: center;
+    font-weight: bold;
+  } /*fin pagina Nosotros*/

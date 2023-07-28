@@ -1,0 +1,16 @@
+/* Botones*/
+.boton {
+    text-decoration: none;
+    background-color: $color-header;
+    color: $color-titulos;
+    padding: 10px 15px;
+    margin-top: 50px;
+    font-size: 15px;
+    border-radius: 15px;
+    border: none;
+  }
+  
+  .boton:hover {
+    background-color: $color-titulos;
+    color: $color-header;
+  }
