@@ -1,8 +1,8 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/RobotoRegular-3m4L.ttf");
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +16,7 @@ body {
 html {
   box-sizing: border-box;
 }
+
 *,
 *:before,
 *:after {
@@ -23,9 +24,8 @@ html {
 }
 
 /*Header*/
-
 h1 {
-  color: #fddc12ff;
+  color: #fddc12;
   text-align: center;
   font-family: "Roboto";
 }
@@ -36,19 +36,17 @@ h1 {
 }
 
 @media (max-width: 768px) {
-    .logo {
-      margin-right: 0;
-    }
+  .logo {
+    margin-right: 0;
+  }
 }
-
 .navegacion {
-  background-color: #08043bff;
+  background-color: #08043b;
   padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 
 /*MOVIL*/
 @media (min-width: 768px) {
@@ -57,7 +55,6 @@ h1 {
     justify-content: center;
   }
 }
-
 .navegacion a {
   display: block;
   text-align: center;
@@ -68,8 +65,8 @@ h1 {
 }
 
 .navegacion a:hover {
-  background-color: #fddc12ff;
-  color: #08043bff;
+  background-color: #fddc12;
+  color: #08043b;
 }
 
 /*Portada*/
@@ -98,7 +95,7 @@ h1 {
 
 /*Main*/
 h2 {
-  color: #ffca39ff;
+  color: #ffca39;
   font-family: "Roboto";
   padding: 20px;
   font-size: 40px;
@@ -152,7 +149,6 @@ p {
     justify-content: center;
   }
 }
-
 .caja2 {
   width: 100vh;
   height: 100%;
@@ -207,7 +203,6 @@ p {
     justify-content: center;
   }
 }
-
 .caja3 {
   width: auto;
   height: auto;
@@ -242,12 +237,11 @@ p {
     justify-content: center;
   }
 }
-
 /* Botones*/
 .boton {
   text-decoration: none;
-  background-color: #08043bff;
-  color: #fddc12ff;
+  background-color: #08043b;
+  color: #fddc12;
   padding: 10px 15px;
   margin-top: 50px;
   font-size: 15px;
@@ -256,14 +250,15 @@ p {
 }
 
 .boton:hover {
-  background-color: #fddc12ff;
-  color: #08043bff;
+  background-color: #fddc12;
+  color: #08043b;
 }
 
 /*Ubicación*/
 iframe {
   border-radius: 10px;
 }
+
 /*MOVIL*/
 @media (max-width: 768px) {
   .mapa {
@@ -271,18 +266,16 @@ iframe {
     height: 280px;
   }
 }
-
 .caja4 {
   text-align: center;
 }
 
 /*Footer*/
 .footer {
-  background-color: #08043bff;
+  background-color: #08043b;
   color: white;
   text-align: center;
 } /*FIN DEL INDEX*/
-
 /*Pagina Nosotros*/
 .nosotros {
   background-image: url(../img/sobrenosotros.png);
@@ -293,15 +286,14 @@ iframe {
 }
 
 @media (max-width: 768px) {
-    .nosotros {
-      background-image: url(../img/sobrenosotros.png);
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 400px;
-      position: relative;
-    }
+  .nosotros {
+    background-image: url(../img/sobrenosotros.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+  }
 }
-
 .contenedor-nosotros {
   padding: 40px;
   margin: 20px;
@@ -314,7 +306,6 @@ iframe {
   border-radius: 10px;
   text-align: justify;
 } /*Fin Pagina Nosotros*/
-
 /*Pagina Contacto*/
 .contacto {
   background-image: url(../img/contacto.png);
@@ -325,15 +316,14 @@ iframe {
 }
 
 @media (max-width: 768px) {
-    .contacto {
-      background-image: url(../img/contacto.png);
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 400px;
-      position: relative;
-    }
+  .contacto {
+    background-image: url(../img/contacto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+  }
 }
-
 .campo {
   margin-bottom: 10px;
 }
@@ -365,9 +355,10 @@ iframe {
   font-weight: bold;
 }
 
-
 /*CURSOS*/
 .matricula {
   text-align: center;
   font-weight: bold;
-}
+} /*Fin de Pagina Cursos*/
+
+/*# sourceMappingURL=estilos.css.map */
